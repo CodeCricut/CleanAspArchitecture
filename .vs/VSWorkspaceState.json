@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HelloMediatr.Api",
+    "\\HelloMediatr.Application",
+    "\\HelloMediatr.Application\\Todos",
+    "\\HelloMediatr.Application\\Todos\\Queries",
+    "\\HelloMediatr.Application\\Todos\\Queries\\GetTodosQueryWithPagination"
+  ],
+  "SelectedNode": "\\HelloMediatr.Application\\Todos\\Queries\\GetTodosQueryWithPagination\\GetTodosWithPaginationQuery.cs",
+  "PreviewInSolutionExplorer": false
+}

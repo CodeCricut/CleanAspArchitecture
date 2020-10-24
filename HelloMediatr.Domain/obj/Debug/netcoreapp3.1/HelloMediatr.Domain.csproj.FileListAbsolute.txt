@@ -1,0 +1,8 @@
+C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Domain\bin\Debug\netcoreapp3.1\HelloMediatr.Domain.deps.json
+C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Domain\bin\Debug\netcoreapp3.1\HelloMediatr.Domain.dll
+C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Domain\bin\Debug\netcoreapp3.1\HelloMediatr.Domain.pdb
+C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Domain\obj\Debug\netcoreapp3.1\HelloMediatr.Domain.AssemblyInfoInputs.cache
+C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Domain\obj\Debug\netcoreapp3.1\HelloMediatr.Domain.AssemblyInfo.cs
+C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Domain\obj\Debug\netcoreapp3.1\HelloMediatr.Domain.dll
+C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Domain\obj\Debug\netcoreapp3.1\HelloMediatr.Domain.pdb
+C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Domain\obj\Debug\netcoreapp3.1\HelloMediatr.Domain.csproj.CoreCompileInputs.cache
