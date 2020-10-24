@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KzEWWP8vNcSy/g0TUtH425Wufj+P02NaJWhw0/IrLCrQHQVB++TCGr6BT53JUG0SL4jEKzfNRsbN2jUt9txB+Q==",
+  "dgSpecHash": "W48B2LLXG0tqr8JR1kva2ve92sKigmkpoR//9lUWu0MFJrMZUyPQ+xvcBFR6I3+y+gkj2Z2SmxBlm0DN7FB9sA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ajori\\source\\repos\\HelloMediatr.Api\\HelloMediatr.Api\\HelloMediatr.Api.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,8 @@
     "C:\\Users\\ajori\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.2.0\\fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512",
     "C:\\Users\\ajori\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\ajori\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
-    "C:\\Users\\ajori\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "C:\\Users\\ajori\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\ajori\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

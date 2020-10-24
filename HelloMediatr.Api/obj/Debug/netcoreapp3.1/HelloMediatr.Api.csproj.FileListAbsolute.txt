@@ -22,6 +22,7 @@ C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\obj\Debug\netcorea
 C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\obj\Debug\netcoreapp3.1\HelloMediatr.Api.csproj.CoreCompileInputs.cache
 C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\obj\Debug\netcoreapp3.1\HelloMediatr.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\obj\Debug\netcoreapp3.1\HelloMediatr.Api.MvcApplicationPartsAssemblyInfo.cache

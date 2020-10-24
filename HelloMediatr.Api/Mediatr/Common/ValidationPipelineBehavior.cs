@@ -27,8 +27,7 @@ namespace HelloMediatr.Api.Mediatr.Common
 
 			if (validationFailures.Any())
 			{
-				var error = string.Join("\r\n", validationFailures);
-				throw new InvalidRequestException(error, request);
+				throw new ValidationException(validationFailures);
 			}
 
 			return next();

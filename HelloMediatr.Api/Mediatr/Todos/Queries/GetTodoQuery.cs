@@ -1,4 +1,5 @@
 ﻿using HelloMediatr.Api.Models;
+using HelloMediatr.Api.Models.Exceptions;
 using HelloMediatr.Api.Repositories;
 using MediatR;
 using System;
@@ -30,7 +31,9 @@ namespace HelloMediatr.Api.Mediatr.Todos.Queries
 
 		public Task<Todo> Handle(GetTodoQuery request, CancellationToken cancellationToken)
 		{
-			return Task.FromResult(_todoRepository.Get(request.Id));
+			var todo = _todoRepository.Get(request.Id);
+			if (todo == null) throw new NotFoundException();
+			return Task.FromResult(todo);
 		}
 	}
 }

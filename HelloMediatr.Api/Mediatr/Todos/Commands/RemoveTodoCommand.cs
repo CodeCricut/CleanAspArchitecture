@@ -1,4 +1,5 @@
-﻿using HelloMediatr.Api.Repositories;
+﻿using HelloMediatr.Api.Models.Exceptions;
+using HelloMediatr.Api.Repositories;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -29,6 +30,9 @@ namespace HelloMediatr.Api.Mediatr.Todos.Commands
 
 		public Task<bool> Handle(RemoveTodoCommand request, CancellationToken cancellationToken)
 		{
+			var todo = _todoRepository.Get(request.Id);
+			if (todo == null) throw new NotFoundException();
+
 			var successful = _todoRepository.Remove(request.Id);
 			return Task.FromResult(successful);
 		}

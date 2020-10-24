@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using HelloMediatr.Api.Mediatr.Common;
+using HelloMediatr.Api.Middleware;
 using HelloMediatr.Api.Repositories;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -56,6 +57,8 @@ namespace HelloMediatr.Api
 			app.UseRouting();
 
 			app.UseAuthorization();
+
+			app.UseMiddleware<CustomExceptionHandlerMiddleware>();
 
 			app.UseEndpoints(endpoints =>
 			{
