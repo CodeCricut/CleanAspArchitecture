@@ -1,5 +1,6 @@
 ﻿using HelloMediatr.Api.Models;
 using HelloMediatr.Api.Repositories;
+using HelloMediatr.Domain.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;

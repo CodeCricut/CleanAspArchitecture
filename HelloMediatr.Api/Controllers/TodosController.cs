@@ -2,6 +2,7 @@
 using HelloMediatr.Api.Mediatr.Todos.Queries;
 using HelloMediatr.Api.Models;
 using HelloMediatr.Api.Models.Exceptions;
+using HelloMediatr.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;

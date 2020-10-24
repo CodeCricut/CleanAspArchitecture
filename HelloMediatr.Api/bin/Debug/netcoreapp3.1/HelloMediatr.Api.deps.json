@@ -26,6 +26,7 @@
         "dependencies": {
           "FluentValidation": "9.2.2",
           "FluentValidation.AspNetCore": "9.2.0",
+          "HelloMediatr.Domain": "1.0.0",
           "MediatR": "9.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Newtonsoft.Json": "12.0.3",
@@ -396,6 +397,14 @@
         },
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "HelloMediatr.Domain/1.0.0": {
+        "runtime": {
+          "HelloMediatr.Domain.dll": {}
+        },
+        "compile": {
+          "HelloMediatr.Domain.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2146,6 +2155,11 @@
       "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "HelloMediatr.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

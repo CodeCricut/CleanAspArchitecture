@@ -26,3 +26,5 @@ C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\bin\Debug\netcorea
 C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\obj\Debug\netcoreapp3.1\HelloMediatr.Api.csproj.CoreCompileInputs.cache
 C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\obj\Debug\netcoreapp3.1\HelloMediatr.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\obj\Debug\netcoreapp3.1\HelloMediatr.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\bin\Debug\netcoreapp3.1\HelloMediatr.Domain.dll
+C:\Users\ajori\source\repos\HelloMediatr.Api\HelloMediatr.Api\bin\Debug\netcoreapp3.1\HelloMediatr.Domain.pdb
