@@ -1,12 +1,12 @@
-﻿using HelloMediatr.Api.Mediatr.Todos.Commands;
-using HelloMediatr.Api.Mediatr.Todos.Queries;
-using HelloMediatr.Api.Models;
-using HelloMediatr.Api.Models.Exceptions;
+﻿using HelloMediatr.Application.Common.Models;
+using HelloMediatr.Application.Todos.Commands.CompleteTodo;
+using HelloMediatr.Application.Todos.Commands.CreateTodo;
+using HelloMediatr.Application.Todos.Commands.RemoveTodo;
+using HelloMediatr.Application.Todos.Queries.GetTodo;
+using HelloMediatr.Application.Todos.Queries.GetTodosQueryWithPagination;
 using HelloMediatr.Domain.Entities;
-using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace HelloMediatr.Api.Controllers
@@ -24,8 +24,8 @@ namespace HelloMediatr.Api.Controllers
 			await Mediator.Send(new GetTodoQuery(id));
 
 		[HttpGet]
-		public async Task<IEnumerable<Todo>> GetAsync() =>
-			await Mediator.Send(new GetTodosQuery());
+		public async Task<PaginatedList<Todo>> GetAsync([FromQuery] PagingParams pagingParams) =>
+			await Mediator.Send(new GetTodosWithPaginationQuery(pagingParams));
 
 		[HttpPatch("{id}")]
 		public async Task<bool> CompleteAsync(Guid id) =>

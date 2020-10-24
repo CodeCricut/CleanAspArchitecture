@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMediatr.Api", "HelloMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMediatr.Domain", "HelloMediatr.Domain\HelloMediatr.Domain.csproj", "{280095F3-E7A1-46E9-A3B0-F301BA1BA8E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMediatr.Application", "HelloMediatr.Application\HelloMediatr.Application.csproj", "{26250BD2-A96F-4AE9-9D66-B1376BEC91AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMediatr.Infrastructure", "HelloMediatr.Infrastructure\HelloMediatr.Infrastructure.csproj", "{A50284A8-3F72-4329-86D0-473586CA5896}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{280095F3-E7A1-46E9-A3B0-F301BA1BA8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{280095F3-E7A1-46E9-A3B0-F301BA1BA8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{280095F3-E7A1-46E9-A3B0-F301BA1BA8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26250BD2-A96F-4AE9-9D66-B1376BEC91AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26250BD2-A96F-4AE9-9D66-B1376BEC91AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26250BD2-A96F-4AE9-9D66-B1376BEC91AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26250BD2-A96F-4AE9-9D66-B1376BEC91AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50284A8-3F72-4329-86D0-473586CA5896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50284A8-3F72-4329-86D0-473586CA5896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50284A8-3F72-4329-86D0-473586CA5896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50284A8-3F72-4329-86D0-473586CA5896}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

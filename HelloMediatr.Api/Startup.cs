@@ -1,22 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
-using FluentValidation;
 using FluentValidation.AspNetCore;
-using HelloMediatr.Api.Mediatr.Common;
 using HelloMediatr.Api.Middleware;
-using HelloMediatr.Api.Repositories;
-using MediatR;
+using HelloMediatr.Application;
+using HelloMediatr.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace HelloMediatr.Api
 {
@@ -32,16 +22,9 @@ namespace HelloMediatr.Api
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
-			services.AddMediatR(Assembly.GetExecutingAssembly());
-
-			services.AddScoped<ITodoRepository, TodoMemoryRepository>();
-
-			// Add the custome pipeline validation to DI
-			services.AddScoped(typeof(IPipelineBehavior<,>), typeof(ValidationPipelineBehavior<,>));
-
-			services.AddMvc().AddFluentValidation(
-				// Register all validators in assembly
-				fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>());
+			services.AddApplication();
+			services.AddInfrastructure(Configuration);
+			services.AddApi();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,6 +36,11 @@ namespace HelloMediatr.Api
 			}
 
 			app.UseHttpsRedirection();
+
+
+			// Register the Swagger generator and the Swagger UI middlewares
+			app.UseSwagger();
+			app.UseSwaggerUI(setup => setup.SwaggerEndpoint("/swagger/v1/swagger.json", "HelloMediatr"));
 
 			app.UseRouting();
 
