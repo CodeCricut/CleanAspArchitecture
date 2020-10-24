@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "KzEWWP8vNcSy/g0TUtH425Wufj+P02NaJWhw0/IrLCrQHQVB++TCGr6BT53JUG0SL4jEKzfNRsbN2jUt9txB+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ajori\\source\\repos\\HelloMediatr.Api\\HelloMediatr.Api\\HelloMediatr.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ajori\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\ajori\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.2.0\\fluentvalidation.aspnetcore.9.2.0.nupkg.sha512",
+    "C:\\Users\\ajori\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.2.0\\fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512",
+    "C:\\Users\\ajori\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\ajori\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\ajori\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
